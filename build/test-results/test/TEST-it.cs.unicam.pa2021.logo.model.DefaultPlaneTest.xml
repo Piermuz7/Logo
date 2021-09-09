@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.cs.unicam.pa2021.logo.model.DefaultPlaneTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-09-09T10:29:39" hostname="MSI" time="0.82">
+  <properties/>
+  <testcase name="pointsShouldBePartOfPlane()" classname="it.cs.unicam.pa2021.logo.model.DefaultPlaneTest" time="0.046"/>
+  <testcase name="oneClosedAreaShouldBeGeneratedTest()" classname="it.cs.unicam.pa2021.logo.model.DefaultPlaneTest" time="0.244"/>
+  <testcase name="NullPointerExceptionShouldBeThrown()" classname="it.cs.unicam.pa2021.logo.model.DefaultPlaneTest" time="0.009"/>
+  <testcase name="noAreasShouldBeGenerated()" classname="it.cs.unicam.pa2021.logo.model.DefaultPlaneTest" time="0.025"/>
+  <testcase name="linesShouldBeGenerated()" classname="it.cs.unicam.pa2021.logo.model.DefaultPlaneTest" time="0.118"/>
+  <testcase name="planeShouldBeCreated()" classname="it.cs.unicam.pa2021.logo.model.DefaultPlaneTest" time="0.016"/>
+  <testcase name="someClosedAreaShouldBeGenerated()" classname="it.cs.unicam.pa2021.logo.model.DefaultPlaneTest" time="0.267"/>
+  <testcase name="linesNotShouldBePartOfClosedArea()" classname="it.cs.unicam.pa2021.logo.model.DefaultPlaneTest" time="0.085"/>
+  <testcase name="IllegalArgumentExceptionShouldBeThrown()" classname="it.cs.unicam.pa2021.logo.model.DefaultPlaneTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(250.0,300.0)
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(250.0,250.0) , P(250.0,300.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(200.0,300.0)
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(250.0,300.0) , P(200.0,300.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(200.0,250.0)
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(200.0,300.0) , P(200.0,250.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(250.0,250.0)
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.DefaultPlane addLine
+INFORMAZIONI: Generated closed area: AREA{ lines= 
+L{ P(250.0,250.0) , P(250.0,300.0) color = RGBColor{r=0, g=0, b=0} } 
+L{ P(250.0,300.0) , P(200.0,300.0) color = RGBColor{r=0, g=0, b=0} } 
+L{ P(200.0,300.0) , P(200.0,250.0) color = RGBColor{r=0, g=0, b=0} } 
+L{ P(200.0,250.0) , P(250.0,250.0) color = RGBColor{r=0, g=0, b=0} } 
+, color= RGBColor{r=255, g=255, b=255} }
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(200.0,250.0) , P(250.0,250.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(600.0,500.0)
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(500.0,500.0) , P(600.0,500.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(0.0,5.0)
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Moved cursor from P(5.0,5.0) to P(0.0,5.0)
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(0.0,4.0)
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Moved cursor from P(0.0,5.0) to P(0.0,4.0)
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(6.0,4.0)
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(0.0,4.0) , P(6.0,4.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional[P(6.0,9.0)]
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(6.0,9.0)
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(6.0,4.0) , P(6.0,9.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:39 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(510.0,500.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(500.0,500.0) , P(510.0,500.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(510.0,490.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(510.0,500.0) , P(510.0,490.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(500.0,490.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(510.0,490.0) , P(500.0,490.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(500.0,500.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.DefaultPlane addLine
+INFORMAZIONI: Generated closed area: AREA{ lines= 
+L{ P(500.0,500.0) , P(510.0,500.0) color = RGBColor{r=0, g=0, b=0} } 
+L{ P(510.0,500.0) , P(510.0,490.0) color = RGBColor{r=0, g=0, b=0} } 
+L{ P(510.0,490.0) , P(500.0,490.0) color = RGBColor{r=0, g=0, b=0} } 
+L{ P(500.0,490.0) , P(500.0,500.0) color = RGBColor{r=0, g=0, b=0} } 
+, color= RGBColor{r=255, g=255, b=255} }
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(500.0,490.0) , P(500.0,500.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(500.0,600.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Moved cursor from P(500.0,500.0) to P(500.0,600.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(500.0,610.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(500.0,600.0) , P(500.0,610.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(510.0,610.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(500.0,610.0) , P(510.0,610.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(510.0,600.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(510.0,610.0) , P(510.0,600.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(500.0,600.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.DefaultPlane addLine
+INFORMAZIONI: Generated closed area: AREA{ lines= 
+L{ P(500.0,600.0) , P(500.0,610.0) color = RGBColor{r=0, g=0, b=0} } 
+L{ P(500.0,610.0) , P(510.0,610.0) color = RGBColor{r=0, g=0, b=0} } 
+L{ P(510.0,610.0) , P(510.0,600.0) color = RGBColor{r=0, g=0, b=0} } 
+L{ P(510.0,600.0) , P(500.0,600.0) color = RGBColor{r=0, g=0, b=0} } 
+, color= RGBColor{r=255, g=255, b=255} }
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(510.0,600.0) , P(500.0,600.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(700.0,600.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Moved cursor from P(500.0,600.0) to P(700.0,600.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(700.0,550.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(700.0,600.0) , P(700.0,550.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(656.7,575.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(700.0,550.0) , P(656.7,575.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(700.0,600.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.DefaultPlane addLine
+INFORMAZIONI: Generated closed area: AREA{ lines= 
+L{ P(700.0,600.0) , P(700.0,550.0) color = RGBColor{r=0, g=0, b=0} } 
+L{ P(700.0,550.0) , P(656.7,575.0) color = RGBColor{r=0, g=0, b=0} } 
+L{ P(656.7,575.0) , P(700.0,600.0) color = RGBColor{r=0, g=0, b=0} } 
+, color= RGBColor{r=255, g=255, b=255} }
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(656.7,575.0) , P(700.0,600.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(550.0,500.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(500.0,500.0) , P(550.0,500.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(550.0,450.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(550.0,500.0) , P(550.0,450.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(500.0,450.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(550.0,450.0) , P(500.0,450.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(500.0,500.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.DefaultPlane addLine
+INFORMAZIONI: Generated closed area: AREA{ lines= 
+L{ P(500.0,500.0) , P(550.0,500.0) color = RGBColor{r=0, g=0, b=0} } 
+L{ P(550.0,500.0) , P(550.0,450.0) color = RGBColor{r=0, g=0, b=0} } 
+L{ P(550.0,450.0) , P(500.0,450.0) color = RGBColor{r=0, g=0, b=0} } 
+L{ P(500.0,450.0) , P(500.0,500.0) color = RGBColor{r=0, g=0, b=0} } 
+, color= RGBColor{r=255, g=0, b=0} }
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(500.0,450.0) , P(500.0,500.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(550.0,500.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(500.0,500.0) , P(550.0,500.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(550.0,450.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(550.0,500.0) , P(550.0,450.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(500.0,450.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(550.0,450.0) , P(500.0,450.0) color = RGBColor{r=0, g=0, b=0} } 
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Intersection point:  Optional.empty
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction checkCursorAtBorder
+INFORMAZIONI: Cursor position P(500.0,500.0)
+set 09, 2021 12:29:40 PM it.cs.unicam.pa2021.logo.model.Instruction move
+INFORMAZIONI: Generated line: L{ P(500.0,450.0) , P(500.0,500.0) color = RGBColor{r=0, g=0, b=0} } 
+]]></system-err>
+</testsuite>

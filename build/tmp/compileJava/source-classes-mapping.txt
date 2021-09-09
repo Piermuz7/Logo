@@ -1,0 +1,48 @@
+it/cs/unicam/pa2021/logo/model/DefaultPlane.java
+ it.cs.unicam.pa2021.logo.model.DefaultPlane
+it/cs/unicam/pa2021/logo/model/PlaneUpdateListener.java
+ it.cs.unicam.pa2021.logo.model.PlaneUpdateListener
+it/cs/unicam/pa2021/logo/model/Cursor.java
+ it.cs.unicam.pa2021.logo.model.Cursor
+it/cs/unicam/pa2021/logo/model/UndirectedGraph.java
+ it.cs.unicam.pa2021.logo.model.UndirectedGraph
+it/cs/unicam/pa2021/logo/model/SimpleDirection.java
+ it.cs.unicam.pa2021.logo.model.SimpleDirection
+it/cs/unicam/pa2021/logo/model/PlaneUpdateSupport.java
+ it.cs.unicam.pa2021.logo.model.PlaneUpdateSupport
+it/cs/unicam/pa2021/logo/model/Segment.java
+ it.cs.unicam.pa2021.logo.model.Segment
+it/cs/unicam/pa2021/logo/model/LOGOSyntaxErrorException.java
+ it.cs.unicam.pa2021.logo.model.LOGOSyntaxErrorException
+it/cs/unicam/pa2021/logo/model/Directional.java
+ it.cs.unicam.pa2021.logo.model.Directional
+it/cs/unicam/pa2021/logo/controller/DefaultController.java
+ it.cs.unicam.pa2021.logo.controller.DefaultController
+it/cs/unicam/pa2021/logo/model/Graph.java
+ it.cs.unicam.pa2021.logo.model.Graph
+it/cs/unicam/pa2021/logo/model/ClosedArea.java
+ it.cs.unicam.pa2021.logo.model.ClosedArea
+it/cs/unicam/pa2021/logo/model/Plane.java
+ it.cs.unicam.pa2021.logo.model.Plane
+it/cs/unicam/pa2021/logo/model/SimpleArea.java
+ it.cs.unicam.pa2021.logo.model.SimpleArea
+it/cs/unicam/pa2021/logo/model/Point.java
+ it.cs.unicam.pa2021.logo.model.Point
+it/cs/unicam/pa2021/logo/model/RGBColor.java
+ it.cs.unicam.pa2021.logo.model.RGBColor
+it/cs/unicam/pa2021/logo/model/CartesianPoint.java
+ it.cs.unicam.pa2021.logo.model.CartesianPoint
+it/cs/unicam/pa2021/logo/controller/Controller.java
+ it.cs.unicam.pa2021.logo.controller.Controller
+it/cs/unicam/pa2021/logo/view/MainFXController.java
+ it.cs.unicam.pa2021.logo.view.MainFXController
+it/cs/unicam/pa2021/logo/model/SimpleCursor.java
+ it.cs.unicam.pa2021.logo.model.SimpleCursor
+it/cs/unicam/pa2021/logo/model/Line.java
+ it.cs.unicam.pa2021.logo.model.Line
+it/cs/unicam/pa2021/logo/model/Instruction.java
+ it.cs.unicam.pa2021.logo.model.Instruction
+it/cs/unicam/pa2021/logo/MainFX.java
+ it.cs.unicam.pa2021.logo.MainFX
+it/cs/unicam/pa2021/logo/model/GraphNode.java
+ it.cs.unicam.pa2021.logo.model.GraphNode
