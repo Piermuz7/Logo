@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="it.cs.unicam.pa2021.logo.model.SimpleDirectionTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-09-09T10:29:40" hostname="MSI" time="0.009">
+<testsuite name="it.cs.unicam.pa2021.logo.model.SimpleDirectionTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-10-19T12:25:31" hostname="MSI" time="0.005">
   <properties/>
-  <testcase name="IllegalArgumentExceptionshouldBeThrown()" classname="it.cs.unicam.pa2021.logo.model.SimpleDirectionTest" time="0.003"/>
+  <testcase name="IllegalArgumentExceptionshouldBeThrown()" classname="it.cs.unicam.pa2021.logo.model.SimpleDirectionTest" time="0.002"/>
   <testcase name="directionShouldBeCreated()" classname="it.cs.unicam.pa2021.logo.model.SimpleDirectionTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

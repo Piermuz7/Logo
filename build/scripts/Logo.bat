@@ -71,7 +71,7 @@ set CLASSPATH=%APP_HOME%\lib\Logo-1.0-SNAPSHOT.jar;%APP_HOME%\lib\javafx-fxml-11
 
 
 @rem Execute Logo
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %LOGO_OPTS%  -classpath "%CLASSPATH%" it.cs.unicam.pa2021.logo.Main %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %LOGO_OPTS%  -classpath "%CLASSPATH%" it.cs.unicam.pa2021.logo.MainFX %*
 
 :end
 @rem End local scope for the variables with windows NT shell
